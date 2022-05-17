@@ -1,9 +1,17 @@
 {
-  "extends": "../../tsconfig.base",
-  "include": ["src/**/*.ts"],
+  "extends": "@tsconfig/node12/tsconfig.json",
   "compilerOptions": {
+    "declaration": true,
+    "composite": true,
+    "inlineSources": true,
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
     "outDir": "build",
-    "rootDir": "src"
+    "rootDir": "src",
+    "typeRoots": ["./ts-declarations", "./node_modules/@types"],
   },
+  "include": ["src/**/*.ts"],
   "exclude": ["**/__mocks__/*", "**/__tests__/*"]
 }

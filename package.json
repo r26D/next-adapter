@@ -1,14 +1,14 @@
 {
-  "name": "@expo/next-adapter",
-  "version": "4.0.5",
+  "name": "@r26d/next-adapter",
+  "version": "4.1.0",
   "description": "Adapter for using Next.js with Expo modules",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
     "watch": "tsc --watch --preserveWatchOutput",
     "build": "tsc",
-    "prepare": "yarn run clean && yarn build",
-    "clean": "rimraf build ./tsconfig.tsbuildinfo",
+    "prepare": "npm run clean && npm run build",
+    "clean": "rimraf -rf build ./tsconfig.tsbuildinfo",
     "lint": "eslint ."
   },
   "bin": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/expo/expo-cli.git",
+    "url": "https://github.com/r26d/next-adapter.git",
     "directory": "packages/next-adapter"
   },
   "keywords": [
@@ -30,10 +30,7 @@
     "react-native-web"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/expo/expo-cli/issues"
-  },
-  "homepage": "https://github.com/expo/expo-cli/tree/main/packages/next-adapter#readme",
+  "homepage": "https://github.com/next-adapter/tree/main#readme",
   "files": [
     "babel",
     "customize",
@@ -43,14 +40,19 @@
     "document.d.ts"
   ],
   "devDependencies": {
+    "@types/jest": "^26.0.8",
+    "@types/node": "^12",
+    "@tsconfig/node12": "^1.0.7",
     "@types/fs-extra": "^9.0.1",
     "@types/node-fetch": "^2.5.8",
+    "rimraf": "^3.0.2",
     "@types/prompts": "^2.0.6"
   },
   "peerDependencies": {
-    "next": "^11",
-    "react": "^17",
-    "react-native-web": "^0.17.0"
+    "next": "12.1.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-native-web": "0.17.7"
   },
   "publishConfig": {
     "access": "public"
