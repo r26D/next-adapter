@@ -10,7 +10,7 @@ const chalk_1 = __importDefault(require("chalk"));
 const fs_extra_1 = __importDefault(require("fs-extra"));
 const path_1 = __importDefault(require("path"));
 const resolve_from_1 = __importDefault(require("resolve-from"));
-const generatedTag = `@generated: @expo/next-adapter@${require('@expo/next-adapter/package.json').version}`;
+const generatedTag = `@generated: @r26d/next-adapter@${require('@r26d/next-adapter/package.json').version}`;
 function createJSTag() {
     return `// ${generatedTag}`;
 }
@@ -45,7 +45,7 @@ async function projectHasLatestFileAsync(destinationPath, tag) {
 const packageRoot = path_1.default.join(__dirname, '../../');
 function getDependencies(projectRoot) {
     const dependencies = ['react-native-web', 'next'].filter(dependency => !resolve_from_1.default.silent(projectRoot, dependency));
-    const devDependencies = ['@expo/next-adapter', 'babel-preset-expo'].filter(dependency => !resolve_from_1.default.silent(projectRoot, dependency));
+    const devDependencies = ['@r26d/next-adapter', 'babel-preset-expo'].filter(dependency => !resolve_from_1.default.silent(projectRoot, dependency));
     return { dependencies, devDependencies };
 }
 exports.manifest = [
@@ -213,7 +213,7 @@ exports.manifest = [
                 '# Next.js dependencies',
                 '/.pnp',
                 '.pnp.js',
-                '# @end @expo/next-adapter',
+                '# @end @r26d/next-adapter',
                 '',
             ];
             contents += ignore.join('\n');

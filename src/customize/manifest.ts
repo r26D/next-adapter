@@ -18,8 +18,8 @@ type CustomizeOption = {
   onEnabledAsync: EnabledMethod;
 };
 
-const generatedTag = `@generated: @expo/next-adapter@${
-  require('@expo/next-adapter/package.json').version
+const generatedTag = `@generated: @r26d/next-adapter@${
+  require('@r26d/next-adapter/package.json').version
 }`;
 
 function createJSTag(): string {
@@ -69,7 +69,7 @@ function getDependencies(
   const dependencies = ['react-native-web', 'next'].filter(
     dependency => !resolveFrom.silent(projectRoot, dependency)
   );
-  const devDependencies = ['@expo/next-adapter', 'babel-preset-expo'].filter(
+  const devDependencies = ['@r26d/next-adapter', 'babel-preset-expo'].filter(
     dependency => !resolveFrom.silent(projectRoot, dependency)
   );
 
@@ -266,7 +266,7 @@ export const manifest: CustomizeOption[] = [
         '# Next.js dependencies',
         '/.pnp',
         '.pnp.js',
-        '# @end @expo/next-adapter',
+        '# @end @r26d/next-adapter',
         '',
       ];
 

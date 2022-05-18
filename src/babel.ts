@@ -19,7 +19,7 @@ module.exports = function (api: any) {
     // Throw an error if anything is missing
     if (missingPackages.length)
       throw new Error(
-        `[BABEL]: preset \`@expo/next-adapter/babel\` is missing peer dependencies: ${missingPackages.join(
+        `[BABEL]: preset \`@r26d/next-adapter/babel\` is missing peer dependencies: ${missingPackages.join(
           ', '
         )}`
       );

@@ -8,7 +8,7 @@ import shouldUpdate from './update';
 
 let projectDirectory: string = '';
 
-const packageJson = () => require('@expo/next-adapter/package.json');
+const packageJson = () => require('@r26d/next-adapter/package.json');
 
 const program = new Command(packageJson().name)
   .version(packageJson().version)
