@@ -29,8 +29,7 @@
   "homepage": "https://github.com/next-adapter/tree/main#readme",
   "files": [
     "README.md",
-    "dist",
-    "js_version"
+    "dist"
   ],
   "devDependencies": {
     "@babel/cli": "^7.17.10",
