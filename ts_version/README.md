@@ -1,16 +1,16 @@
 <!-- Title -->
 <h1 align="center">
-👋 Welcome to <br/><code>@expo/next-adapter</code>
+👋 Welcome to <br/><code>@r26d/next-adapter</code>
 </h1>
 
 This was forked on May 17, 2022 - from version 4.0.5
 <p align="center">Adapter document and server for Next.js projects using Expo modules.</p>
 
 <p align="center">
-  <img src="https://flat.badgen.net/packagephobia/install/@expo/next-adapter">
+  <img src="https://flat.badgen.net/packagephobia/install/@r26d/next-adapter">
 
-  <a href="https://www.npmjs.com/package/@expo/next-adapter">
-    <img src="https://flat.badgen.net/npm/dw/@expo/next-adapter" target="_blank" />
+  <a href="https://www.npmjs.com/package/@r26d/next-adapter">
+    <img src="https://flat.badgen.net/npm/dw/@r26d/next-adapter" target="_blank" />
   </a>
 
   <a aria-label="Circle CI" href="https://circleci.com/gh/expo/expo-cli/tree/main">

@@ -10,7 +10,7 @@ const path_1 = require("path");
 const customize_1 = require("../customize");
 const update_1 = __importDefault(require("./update"));
 let projectDirectory = '';
-const packageJson = () => require('@expo/next-adapter/package.json');
+const packageJson = () => require('@r26d/next-adapter/package.json');
 const program = new commander_1.Command(packageJson().name)
     .version(packageJson().version)
     .arguments('<project-directory>')

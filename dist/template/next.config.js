@@ -1,1 +1,0 @@
-var _require=require('@expo/next-adapter'),withExpo=_require.withExpo;module.exports=withExpo({projectRoot:__dirname});

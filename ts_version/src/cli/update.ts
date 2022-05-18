@@ -1,7 +1,7 @@
 import chalk from 'chalk';
 import checkForUpdate from 'update-check';
 
-const packageJson = () => require('@expo/next-adapter/package.json');
+const packageJson = () => require('@r26d/next-adapter/package.json');
 
 export default async function shouldUpdate() {
   const update = checkForUpdate(packageJson()).catch(() => null);

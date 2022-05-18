@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ffa89e0-7784-4fdf-86b3-f5c4c73ff6cb" name="Changes" comment="Removing the js_version from the npm version">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6ffa89e0-7784-4fdf-86b3-f5c4c73ff6cb" name="Changes" comment="Working on directory structure.">
+      <change beforePath="$PROJECT_DIR$/dist/src/babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/cli/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/cli/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/cli/update.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/cli/update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/customize/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/customize/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/customize/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/customize/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/withExpo.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/withExpo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/convert.js" beforeDir="false" afterPath="$PROJECT_DIR$/tools/convert.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +60,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652901817526</updated>
-      <workItem from="1652901818617" duration="3016000" />
+      <workItem from="1652901818617" duration="3635000" />
     </task>
     <task id="LOCAL-00001" summary="This version includes a new script to convert the original typescript version to a plain javascript version so it is easier to use on our non-typescript projects.">
       <created>1652902194067</created>
@@ -92,7 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652904522041</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Resorting out it gets transpiled.">
+      <created>1652905305174</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652905305174</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Working on directory structure.">
+      <created>1652905777991</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652905777991</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +141,9 @@
     <MESSAGE value="Modified to support babel transpiling of the javascript" />
     <MESSAGE value="changed to include the dist as part fo the checkout ou." />
     <MESSAGE value="Removing the js_version from the npm version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing the js_version from the npm version" />
+    <MESSAGE value="Resorting out it gets transpiled." />
+    <MESSAGE value="Working on directory structure." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on directory structure." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

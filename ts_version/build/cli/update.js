@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const chalk_1 = __importDefault(require("chalk"));
 const update_check_1 = __importDefault(require("update-check"));
-const packageJson = () => require('@expo/next-adapter/package.json');
+const packageJson = () => require('@r26d/next-adapter/package.json');
 async function shouldUpdate() {
     const update = (0, update_check_1.default)(packageJson()).catch(() => null);
     try {
