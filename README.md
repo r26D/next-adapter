@@ -12,6 +12,7 @@ the package - since it isn't being shipped via npm
 ## To Update
 
 1. Sync the project code into the ts_version
-1. Update the package deps in package.json
-1. cd tools && npm start
-1. commit and push
+2. Update the package deps in package.json
+3. cd tools && npm start
+4. in the top directory  - npm run build
+5. 

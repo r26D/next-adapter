@@ -4,35 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ffa89e0-7784-4fdf-86b3-f5c4c73ff6cb" name="Changes" comment="This version includes a new script to convert the original typescript version to a plain javascript version so it is easier to use on our non-typescript projects.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/babel/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/babel/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/customize/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/customize/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/document.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/jsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/babel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/cli/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/cli/update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/customize/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/customize/manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/withExpo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/template/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/template/default-gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/template/next.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/template/pages/_document.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/template/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="6ffa89e0-7784-4fdf-86b3-f5c4c73ff6cb" name="Changes" comment="Modified to support babel transpiling of the javascript">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/convert.js" beforeDir="false" afterPath="$PROJECT_DIR$/tools/convert.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652901817526</updated>
-      <workItem from="1652901818617" duration="2110000" />
+      <workItem from="1652901818617" duration="2184000" />
     </task>
     <task id="LOCAL-00001" summary="This version includes a new script to convert the original typescript version to a plain javascript version so it is easier to use on our non-typescript projects.">
       <created>1652902194067</created>
@@ -92,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652902194067</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modified to support babel transpiling of the javascript">
+      <created>1652904269699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652904269699</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +93,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="This version includes a new script to convert the original typescript version to a plain javascript version so it is easier to use on our non-typescript projects." />
-    <option name="LAST_COMMIT_MESSAGE" value="This version includes a new script to convert the original typescript version to a plain javascript version so it is easier to use on our non-typescript projects." />
+    <MESSAGE value="Modified to support babel transpiling of the javascript" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified to support babel transpiling of the javascript" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
