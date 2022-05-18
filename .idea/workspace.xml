@@ -2,111 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ffa89e0-7784-4fdf-86b3-f5c4c73ff6cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/next-adapter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/src/babel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/src/cli/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/src/cli/update.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/src/customize/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/src/customize/manifest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/src/withExpo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/convert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts_version/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts_version/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts_version/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts_version/babel/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts_version/babel/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts_version/customize/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts_version/customize/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts_version/document.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts_version/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts_version/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts_version/template/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts_version/template/default-gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts_version/template/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts_version/template/pages/_document.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts_version/template/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/dist/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/babel/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/babel/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/babel.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/babel.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/babel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/babel.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/babel.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cli/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/cli/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cli/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/cli/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cli/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/cli/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cli/update.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/cli/update.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cli/update.js" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/cli/update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cli/update.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/cli/update.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/customize/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/customize/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/customize/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/customize/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/customize/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/customize/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/customize/manifest.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/customize/manifest.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/customize/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/customize/manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/customize/manifest.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/customize/manifest.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/withExpo.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/withExpo.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/withExpo.js" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/withExpo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/withExpo.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/build/withExpo.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customize/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/customize/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customize/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/customize/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/document.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/babel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/src/babel.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cli/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/src/cli/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cli/update.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/src/cli/update.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customize/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/src/customize/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customize/manifest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/src/customize/manifest.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/withExpo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/src/withExpo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/default-gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/default-gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/pages/_document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/better-opn/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/better-opn/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/decache/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/decache/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/exec-async/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/exec-async/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/expo__bunyan/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/expo__bunyan/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/expo__simple-spinner/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/expo__simple-spinner/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/freeport-async/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/freeport-async/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/hasbin/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/hasbin/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/json-schema-deref-sync/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/json-schema-deref-sync/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/json-schema-traverse/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/json-schema-traverse/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/md5hex/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/md5hex/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/metro-babel-transformer/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/metro-babel-transformer/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/metro-config/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/metro-config/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/metro-source-map/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/metro-source-map/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/metro/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/metro/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/mini-css-extract-plugin/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/mini-css-extract-plugin/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/pacote/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/pacote/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/pnp-webpack-plugin/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/pnp-webpack-plugin/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/postcss-safe-parser/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/postcss-safe-parser/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/probe-image-size/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/probe-image-size/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/qrcode-terminal/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/qrcode-terminal/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/react-dev-utils/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/react-dev-utils/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/read-last-lines/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/read-last-lines/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/slugid/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/slugid/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/update-check/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/update-check/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/webpack-deep-scope-plugin/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/webpack-deep-scope-plugin/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-declarations/xcode/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/ts-declarations/xcode/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/ts_version/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +38,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -153,8 +53,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652901817526</updated>
-      <workItem from="1652901818617" duration="368000" />
+      <workItem from="1652901818617" duration="933000" />
     </task>
+    <task id="LOCAL-00001" summary="This version includes a new script to convert the original typescript version to a plain javascript version so it is easier to use on our non-typescript projects.">
+      <created>1652902194067</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652902194067</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
