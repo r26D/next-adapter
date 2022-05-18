@@ -4,7 +4,8 @@
   "description": "This converts the typescript application to a javascript one based on https://ui-lib.com/blog/typescript-to-javascript/",
   "main": "index.js",
   "scripts": {
-    "start": "node convert"
+    "start": "node convert",
+    "build": "npm start"
   },
   "dependencies": {},
   "devDependencies": {

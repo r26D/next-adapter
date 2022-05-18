@@ -4,7 +4,7 @@ import chalk from 'chalk';
 import fs from 'fs-extra';
 import path from 'path';
 import resolveFrom from 'resolve-from';
-const generatedTag = `@generated: @expo/next-adapter@${require('@expo/next-adapter/package.json').version}`;
+const generatedTag = `@generated: @r26d/next-adapter@${require('@r26d/next-adapter/package.json').version}`;
 
 function createJSTag() {
   return `// ${generatedTag}`;
@@ -48,7 +48,7 @@ const packageRoot = path.join(__dirname, '../../');
 
 function getDependencies(projectRoot) {
   const dependencies = ['react-native-web', 'next'].filter(dependency => !resolveFrom.silent(projectRoot, dependency));
-  const devDependencies = ['@expo/next-adapter', 'babel-preset-expo'].filter(dependency => !resolveFrom.silent(projectRoot, dependency));
+  const devDependencies = ['@r26d/next-adapter', 'babel-preset-expo'].filter(dependency => !resolveFrom.silent(projectRoot, dependency));
   return {
     dependencies,
     devDependencies
@@ -258,7 +258,7 @@ export const manifest = [{
     }
 
     console.log(chalk.magenta(`\u203A Adding the generated folders to your .gitignore`));
-    const ignore = ['', createBashTag(), '/.expo/*', '# Expo Web', '/web-build/*', '# Expo Native', '*.jks', '*.p8', '*.p12', '*.key', '*.mobileprovision', '*.orig.*', '# Next.js', '/.next/*', '/out/', '# Next.js production', '/build/', '# Next.js dependencies', '/.pnp', '.pnp.js', '# @end @expo/next-adapter', ''];
+    const ignore = ['', createBashTag(), '/.expo/*', '# Expo Web', '/web-build/*', '# Expo Native', '*.jks', '*.p8', '*.p12', '*.key', '*.mobileprovision', '*.orig.*', '# Next.js', '/.next/*', '/out/', '# Next.js production', '/build/', '# Next.js dependencies', '/.pnp', '.pnp.js', '# @end @r26d/next-adapter', ''];
     contents += ignore.join('\n');
     await fs.writeFile(destinationPath, contents);
   }

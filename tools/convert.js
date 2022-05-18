@@ -15,6 +15,9 @@ Promise.all([
 //    fse.copy('../ts_version/README.md', '../js_version/README.md'),
 ])
     .then(() => {
+        //Remove stray ts script files
+        fse.removeSync('../js_version/babel/index.d.ts')
+        fse.removeSync('../js_version/customize/index.d.ts'),
         utils.createJsConfig('../js_version/jsconfig.json');
 
         const allFiles = utils.buildTree('../js_version/src');

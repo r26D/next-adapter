@@ -10,7 +10,7 @@ module.exports = function (api) {
 
     const missingPackages = [isWeb && 'next/babel', 'babel-preset-expo'].filter(packageName => packageName && !hasModule(packageName)); // Throw an error if anything is missing
 
-    if (missingPackages.length) throw new Error(`[BABEL]: preset \`@expo/next-adapter/babel\` is missing peer dependencies: ${missingPackages.join(', ')}`);
+    if (missingPackages.length) throw new Error(`[BABEL]: preset \`@r26d/next-adapter/babel\` is missing peer dependencies: ${missingPackages.join(', ')}`);
   }
 
   return {

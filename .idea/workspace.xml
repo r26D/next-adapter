@@ -5,15 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ffa89e0-7784-4fdf-86b3-f5c4c73ff6cb" name="Changes" comment="Working on directory structure.">
-      <change beforePath="$PROJECT_DIR$/dist/src/babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/babel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/cli/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/cli/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/cli/update.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/cli/update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/customize/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/customize/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/customize/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/customize/manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/withExpo.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/build/withExpo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/babel/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/babel/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/customize/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/customize/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/src/babel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/src/cli/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/src/cli/update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/src/customize/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/src/customize/manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/src/withExpo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/template/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/template/default-gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/template/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/template/pages/_document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_version/template/pages/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/convert.js" beforeDir="false" afterPath="$PROJECT_DIR$/tools/convert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tools/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +43,11 @@
       <list>
         <option value="Dirk Elmendorf &lt;dirk@r26d.com&gt;" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>

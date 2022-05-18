@@ -6,7 +6,7 @@ import { runAsync } from '../customize';
 import shouldUpdate from './update';
 let projectDirectory = '';
 
-const packageJson = () => require('@expo/next-adapter/package.json');
+const packageJson = () => require('@r26d/next-adapter/package.json');
 
 const program = new Command(packageJson().name).version(packageJson().version).arguments('<project-directory>').usage(`${chalk.green('<project-directory>')} [options]`).description('Generate static Next.js files into your project.').option('-c, --customize', 'Select template files you want to add to your project').option('-f, --force', 'Allows replacing existing files').action((inputProjectDirectory, options) => {
   projectDirectory = inputProjectDirectory;
