@@ -5,12 +5,12 @@
   "main": "dist/build/index.js",
   "scripts": {
     "build": "npm run build_babel && npm run build_customize && npm run build_document && npm run build_src",
-    "clean": "./node_modules/.bin/rimraf -rf dist && mkdir dist",
+    "clean": "./node_modules/.bin/rimraf -rf babel customize document.js build",
     "lint": "eslint ..",
-    "build_babel": "npx babel js_version/babel --out-dir dist/babel",
-    "build_customize": "npx babel js_version/customize --out-dir dist/customize",
-    "build_document": "npx babel js_version/document.js --out-dir dist/",
-    "build_src": "npx babel js_version/src --out-dir dist/build"
+    "build_babel": "npx babel js_version/babel --out-dir babel",
+    "build_customize": "npx babel js_version/customize --out-dir customize",
+    "build_document": "npx babel js_version/document.js --out-dir .",
+    "build_src": "npx babel js_version/src --out-dir build"
   },
   "bin": {
     "next-expo": "dist/build/cli/index.js"
