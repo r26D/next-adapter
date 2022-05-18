@@ -2,7 +2,7 @@
   "name": "@r26d/next-adapter",
   "version": "4.1.0",
   "description": "Adapter for using Next.js with Expo modules - minus type script",
-  "main": "dist/build/index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "npm run build_babel && npm run build_customize && npm run build_document && npm run build_src",
     "clean": "./node_modules/.bin/rimraf -rf babel customize document.js build",
@@ -13,7 +13,7 @@
     "build_src": "npx babel js_version/src --out-dir build"
   },
   "bin": {
-    "next-expo": "dist/build/cli/index.js"
+    "next-expo": "build/cli/index.js"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,10 @@
   "homepage": "https://github.com/next-adapter/tree/main#readme",
   "files": [
     "README.md",
-    "dist"
+    "babel",
+    "build",
+    "customize",
+    "document.js"
   ],
   "devDependencies": {
     "@babel/cli": "^7.17.10",
