@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ffa89e0-7784-4fdf-86b3-f5c4c73ff6cb" name="Changes" comment="Replacing all calls to @expo/next-adapter">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/babel.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/babel.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cli/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/cli/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cli/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/cli/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cli/update.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/cli/update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cli/update.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/cli/update.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/customize/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/customize/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/customize/manifest.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/customize/manifest.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/babel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/babel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cli/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/cli/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cli/update.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/cli/update.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/customize/manifest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/customize/manifest.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/pages/_document.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Dirk Elmendorf &lt;dirk@r26d.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="jobward-staging-jobward" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29Lody5H4GQXev2ohjL7Y0ooKZL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ffa89e0-7784-4fdf-86b3-f5c4c73ff6cb" name="Changes" comment="" />
+      <created>1652901817526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652901817526</updated>
+      <workItem from="1652901818617" duration="3962000" />
+    </task>
+    <task id="LOCAL-00001" summary="This version includes a new script to convert the original typescript version to a plain javascript version so it is easier to use on our non-typescript projects.">
+      <created>1652902194067</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652902194067</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Modified to support babel transpiling of the javascript">
+      <created>1652904269699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652904269699</updated>
+    </task>
+    <task id="LOCAL-00003" summary="changed to include the dist as part fo the checkout ou.">
+      <created>1652904465515</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652904465515</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Removing the js_version from the npm version">
+      <created>1652904522041</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652904522041</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Resorting out it gets transpiled.">
+      <created>1652905305174</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652905305174</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Working on directory structure.">
+      <created>1652905777991</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652905777991</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Replacing all calls to @expo/next-adapter">
+      <created>1652906104508</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652906104508</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="This version includes a new script to convert the original typescript version to a plain javascript version so it is easier to use on our non-typescript projects." />
+    <MESSAGE value="Modified to support babel transpiling of the javascript" />
+    <MESSAGE value="changed to include the dist as part fo the checkout ou." />
+    <MESSAGE value="Removing the js_version from the npm version" />
+    <MESSAGE value="Resorting out it gets transpiled." />
+    <MESSAGE value="Working on directory structure." />
+    <MESSAGE value="Replacing all calls to @expo/next-adapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replacing all calls to @expo/next-adapter" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
