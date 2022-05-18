@@ -10,8 +10,9 @@
     "sourceMap": true,
     "outDir": "build",
     "rootDir": "src",
-    "typeRoots": ["./ts-declarations", "./node_modules/@types"],
+    "typeRoots": [
+      "./ts-declarations", "./node_modules/@types"]
   },
-  "include": ["src/**/*.ts"],
+  "include": ["ts_version/src/**/*.ts"],
   "exclude": ["**/__mocks__/*", "**/__tests__/*"]
 }

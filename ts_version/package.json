@@ -1,13 +1,18 @@
 {
   "name": "@r26d/next-adapter",
   "version": "4.1.0",
-  "description": "Adapter for using Next.js with Expo modules - minus type script",
-  "main": "dist/index.js",
+  "description": "Adapter for using Next.js with Expo modules",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
+    "watch": "tsc --watch --preserveWatchOutput",
+    "build": "tsc",
+    "prepare": "npm run clean && npm run build",
+    "clean": "../node_modules/.bin/rimraf -rf build ./tsconfig.tsbuildinfo",
     "lint": "eslint .."
   },
   "bin": {
-    "next-expo": "dist/cli/index.js"
+    "next-expo": "build/cli/index.js"
   },
   "repository": {
     "type": "git",
@@ -35,7 +40,13 @@
     "document.d.ts"
   ],
   "devDependencies": {
-    "rimraf": "^3.0.2"
+    "@types/jest": "^26.0.8",
+    "@types/node": "^12",
+    "@tsconfig/node12": "^1.0.7",
+    "@types/fs-extra": "^9.0.1",
+    "@types/node-fetch": "^2.5.8",
+    "rimraf": "^3.0.2",
+    "@types/prompts": "^2.0.6"
   },
   "peerDependencies": {
     "next": "12.1.4",
