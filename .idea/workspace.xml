@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ffa89e0-7784-4fdf-86b3-f5c4c73ff6cb" name="Changes" comment="changed to include the dist as part fo the checkout ou.">
+    <list default="true" id="6ffa89e0-7784-4fdf-86b3-f5c4c73ff6cb" name="Changes" comment="Removing the js_version from the npm version">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/convert.js" beforeDir="false" afterPath="$PROJECT_DIR$/tools/convert.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +34,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29Lody5H4GQXev2ohjL7Y0ooKZL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,6 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -56,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652901817526</updated>
-      <workItem from="1652901818617" duration="2363000" />
+      <workItem from="1652901818617" duration="3016000" />
     </task>
     <task id="LOCAL-00001" summary="This version includes a new script to convert the original typescript version to a plain javascript version so it is easier to use on our non-typescript projects.">
       <created>1652902194067</created>
@@ -79,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652904465515</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Removing the js_version from the npm version">
+      <created>1652904522041</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652904522041</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +115,8 @@
     <MESSAGE value="This version includes a new script to convert the original typescript version to a plain javascript version so it is easier to use on our non-typescript projects." />
     <MESSAGE value="Modified to support babel transpiling of the javascript" />
     <MESSAGE value="changed to include the dist as part fo the checkout ou." />
-    <option name="LAST_COMMIT_MESSAGE" value="changed to include the dist as part fo the checkout ou." />
+    <MESSAGE value="Removing the js_version from the npm version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing the js_version from the npm version" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

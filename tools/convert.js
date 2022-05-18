@@ -4,15 +4,15 @@ const fse = require('fs-extra');
 
 Promise.all([
     fse.copy('../ts_version/babel', '../js_version/babel'),
-    fse.copy('../ts_version/src', '../js_version/src'),
     fse.copy('../ts_version/customize', '../js_version/customize'),
+    fse.copy('../ts_version/src', '../js_version/src'),
     fse.copy('../ts_version/template', '../js_version/template'),
-    fse.copy('../ts_version/.eslintrc.js', '../js_version/.eslintrc.js'),
-    fse.copy('../.gitignore', '../js_version/.gitignore'),
     fse.copy('../ts_version/document.js', '../js_version/document.js'),
-    fse.copy('../ts_version/LICENSE', '../js_version/LICENSE'),
+//    fse.copy('../.gitignore', '../js_version/.gitignore'),
+ //   fse.copy('../ts_version/.eslintrc.js', '../js_version/.eslintrc.js'),
+//    fse.copy('../ts_version/LICENSE', '../js_version/LICENSE'),
  //   fse.copy('../ts_version/package.json', '../js_version/package.json'),
-    fse.copy('../ts_version/README.md', '../js_version/README.md'),
+//    fse.copy('../ts_version/README.md', '../js_version/README.md'),
 ])
     .then(() => {
         utils.createJsConfig('../js_version/jsconfig.json');

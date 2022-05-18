@@ -4,7 +4,7 @@
   "description": "Adapter for using Next.js with Expo modules - minus type script",
   "main": "dist/index.js",
   "scripts": {
-    "build": "npx babel js_version/src --out-dir dist",
+    "build": "npx babel js_version --out-dir dist ",
     "lint": "eslint .."
   },
   "bin": {
