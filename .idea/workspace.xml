@@ -4,9 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ffa89e0-7784-4fdf-86b3-f5c4c73ff6cb" name="Changes" comment="">
+    <list default="true" id="6ffa89e0-7784-4fdf-86b3-f5c4c73ff6cb" name="Changes" comment="This version includes a new script to convert the original typescript version to a plain javascript version so it is easier to use on our non-typescript projects.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/babel/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/babel/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/customize/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/customize/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/babel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/cli/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/cli/update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/customize/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/customize/manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/withExpo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/template/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/template/default-gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/template/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/template/pages/_document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/template/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/convert.js" beforeDir="false" afterPath="$PROJECT_DIR$/tools/convert.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +73,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652901817526</updated>
-      <workItem from="1652901818617" duration="1655000" />
+      <workItem from="1652901818617" duration="2110000" />
     </task>
     <task id="LOCAL-00001" summary="This version includes a new script to convert the original typescript version to a plain javascript version so it is easier to use on our non-typescript projects.">
       <created>1652902194067</created>

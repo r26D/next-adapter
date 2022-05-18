@@ -4,6 +4,7 @@
   "description": "Adapter for using Next.js with Expo modules - minus type script",
   "main": "dist/src/index.js",
   "scripts": {
+    "build": "npx babel js_version/src --out-dir dist",
     "lint": "eslint .."
   },
   "bin": {
@@ -31,6 +32,9 @@
     "dist"
   ],
   "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
     "rimraf": "^3.0.2"
   },
   "peerDependencies": {
