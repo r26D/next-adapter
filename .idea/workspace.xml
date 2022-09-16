@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90f30cb0-10d8-4a1a-b4e9-73c33702b330" name="Changes" comment="FIxing it to build correctly.">
-      <change beforePath="$PROJECT_DIR$/babel/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/babel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cli/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cli/update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/customize/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/customize/manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/withExpo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customize/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document.js" beforeDir="false" />
+    <list default="true" id="90f30cb0-10d8-4a1a-b4e9-73c33702b330" name="Changes" comment="bug: fixed Warning: useTransformReactJsxExperimental has been renamed to useTransformReactJSXExperimental (capitalized JSX) in react-native@0.64.0&#10;&#10;infra: Updated packages&#10;infra: Got it to build on install via npm">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js_version/src/babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/js_version/src/babel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652907158720</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="bug: fixed Warning: useTransformReactJsxExperimental has been renamed to useTransformReactJSXExperimental (capitalized JSX) in react-native@0.64.0&#10;&#10;infra: Updated packages&#10;infra: Got it to build on install via npm">
+      <created>1663361445506</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663361445506</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +156,8 @@
     <MESSAGE value="Working on directory structure." />
     <MESSAGE value="wokring on build out process" />
     <MESSAGE value="removing dist and putting in the main directory." />
-    <option name="LAST_COMMIT_MESSAGE" value="removing dist and putting in the main directory." />
+    <MESSAGE value="bug: fixed Warning: useTransformReactJsxExperimental has been renamed to useTransformReactJSXExperimental (capitalized JSX) in react-native@0.64.0&#10;&#10;infra: Updated packages&#10;infra: Got it to build on install via npm" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug: fixed Warning: useTransformReactJsxExperimental has been renamed to useTransformReactJSXExperimental (capitalized JSX) in react-native@0.64.0&#10;&#10;infra: Updated packages&#10;infra: Got it to build on install via npm" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
