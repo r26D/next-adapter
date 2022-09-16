@@ -4,6 +4,7 @@
 </h1>
 
 This was forked on May 17, 2022 - from version 4.0.5
+[Original Site](https://github.com/expo/expo-cli/tree/main/packages/next-adapter)
 <p align="center">Adapter document and server for Next.js projects using Expo modules.</p>
 
 <p align="center">

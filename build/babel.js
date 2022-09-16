@@ -20,7 +20,7 @@ module.exports = function (api) {
             [
                 require('babel-preset-expo'),
                 {
-                    web: { useTransformReactJsxExperimental: true },
+                    web: { useTransformReactJSXExperimental: true },
                     // Disable the `no-anonymous-default-export` plugin in babel-preset-expo
                     // so users don't see duplicate warnings.
                     'no-anonymous-default-export': false,
