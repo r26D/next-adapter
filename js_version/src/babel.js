@@ -17,7 +17,7 @@ module.exports = function (api) {
     presets: [// Only use next in the browser, it'll break your native project
     isWeb && require('next/babel'), [require('babel-preset-expo'), {
       web: {
-        useTransformReactJsxExperimental: true
+        useTransformReactJSXExperimental: true
       },
       // Disable the `no-anonymous-default-export` plugin in babel-preset-expo
       // so users don't see duplicate warnings.
