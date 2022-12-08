@@ -1,2 +1,6 @@
 ts_version/tsconfig.tsbuildinfo
 node_modules
+babel
+build
+customize
+document.js
