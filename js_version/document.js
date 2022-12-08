@@ -1,5 +1,6 @@
 // Based on https://github.com/zeit/next.js/tree/canary/examples/with-react-native-web
 // and https://github.com/expo/expo-cli/blob/main/packages/webpack-config/web-default/index.html
+// 12/8/2022
 import NextDocument, { Head, Html, Main, NextScript } from 'next/document';
 import * as React from 'react';
 import { AppRegistry } from 'react-native';
