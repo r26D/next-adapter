@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90f30cb0-10d8-4a1a-b4e9-73c33702b330" name="Changes" comment="WOkring thru updating to support newer nodesjs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_version/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js_version/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652901817526</updated>
       <workItem from="1652901818617" duration="3635000" />
-      <workItem from="1670537569801" duration="3135000" />
+      <workItem from="1670537569801" duration="3854000" />
     </task>
     <task id="LOCAL-00001" summary="This version includes a new script to convert the original typescript version to a plain javascript version so it is easier to use on our non-typescript projects.">
       <created>1652902194067</created>
