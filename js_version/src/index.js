@@ -1,1 +1,2 @@
-export { default as withExpo } from './withExpo';
+import withExpo from "./withExpo.js"
+export {withExpo}
