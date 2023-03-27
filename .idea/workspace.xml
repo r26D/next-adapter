@@ -47,7 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/delmendo/Desktop/git/next-adapter",
+    "last_opened_file_path": "/home/delmendo/Desktop/git/absinthe_apollo",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -68,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652901817526</updated>
       <workItem from="1652901818617" duration="3635000" />
-      <workItem from="1670537569801" duration="3854000" />
+      <workItem from="1670537569801" duration="5345000" />
     </task>
     <task id="LOCAL-00001" summary="This version includes a new script to convert the original typescript version to a plain javascript version so it is easier to use on our non-typescript projects.">
       <created>1652902194067</created>
