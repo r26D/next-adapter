@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90f30cb0-10d8-4a1a-b4e9-73c33702b330" name="Changes" comment="WOkring thru updating to support newer nodesjs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="90f30cb0-10d8-4a1a-b4e9-73c33702b330" name="Changes" comment="updating some of the packages" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/delmendo/Desktop/git/absinthe_apollo",
+    "last_opened_file_path": "/home/delmendo/Desktop/git/next-adapter",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -69,6 +67,7 @@
       <updated>1652901817526</updated>
       <workItem from="1652901818617" duration="3635000" />
       <workItem from="1670537569801" duration="5345000" />
+      <workItem from="1679933499491" duration="477000" />
     </task>
     <task id="LOCAL-00001" summary="This version includes a new script to convert the original typescript version to a plain javascript version so it is easier to use on our non-typescript projects.">
       <created>1652902194067</created>
@@ -154,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670539631809</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="updating some of the packages">
+      <created>1679933851371</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679933851371</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +191,8 @@
     <MESSAGE value="bug: fixed Warning: useTransformReactJsxExperimental has been renamed to useTransformReactJSXExperimental (capitalized JSX) in react-native@0.64.0&#10;&#10;infra: Updated packages&#10;infra: Got it to build on install via npm" />
     <MESSAGE value="updating the data" />
     <MESSAGE value="WOkring thru updating to support newer nodesjs" />
-    <option name="LAST_COMMIT_MESSAGE" value="WOkring thru updating to support newer nodesjs" />
+    <MESSAGE value="updating some of the packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating some of the packages" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
